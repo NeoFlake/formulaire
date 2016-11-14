@@ -14,7 +14,7 @@
 	<body>
 
 		<div class="container">
-			
+
 			<form>
 
 				<fieldset>
@@ -26,8 +26,8 @@
 						<div id="main_info">
 
 							<p>
-							
-								<label for="first_name">Prénom :</label> 
+
+								<label for="first_name">Prénom :</label>
 								<input type="text" name="first_name" size="20" maxlength="20" placeholder="Votre prénom" id="first_name" />
 
 							</p>
@@ -38,8 +38,8 @@
 								<input type="text" name="last_name" size="20" maxlength="20" placeholder="Votre nom" id="last_name" />
 
 							</p>
-							
-							<p>	
+
+							<p>
 
 								<label for="age">Âge :</label>
 								<select name="age" id="age" >
@@ -222,7 +222,7 @@
 							<p>
 
 								<label for="email">E-mail :</label>
-								<input type="email" name="mail" size="40" placeholder="Votre_adresse_email@jenoubliepas.com" id="email" />
+								<input type="email" name="mail" size="30" placeholder="Votre_adresse_email@jenoubliepas.com" id="email" />
 
 							</p>
 
@@ -253,175 +253,180 @@
 							<p id="user_message_area">
 
 								<label for="user_message">Avez-vous un message à me faire parvenir (limité à 140 caractères) :</label>
-								<textarea name="message" rows="5" cols="50" maxlength="140" placeholder="Merci d'avance pour votre message" id="user_message" ></textarea>
+								<textarea name="message" rows="5" cols="40" maxlength="140" placeholder="Merci d'avance pour votre message" id="user_message" ></textarea>
 
 							</p>
 
 						</div>
-
-					</div>
-				
-					<div id="player_form">
-
-						<header>
-
-							<h5>Si vous avez déjà joué, veuillez remplir les champs ci-dessous.</h5>
-							<h5>Sinon merci à vous, n'oubliez pas de valider le formulaire ;)!</h5>
-
-						</header>
-
-						<div id="first_multibox">
-
-							<p>
-
-								<h5>Quelles races avez-vous déjà joué? :</h5>
-
-								<div id="alli_multibox">
-
-									<h6>Alliance :</h6>
-
-									<input type="checkbox" name="rall" value="hu" id="human" />
-									<label for="human">Humain</label>
-
-								    <input type="checkbox" name="rall" value="na" id="dwarven" />
-								    <label for="dwarven">Nain</label>
-
-								    <input type="checkbox" name="rall" value="gn" id="gnomish" />
-								    <label for="gnomish">Gnome</label>
-
-								    <input type="checkbox" name="rall" value="elf" id="night_elf" />
-								    <label for="night_elf">Elfe de la Nuit</label>
-
-								    <input type="checkbox" name="rall" value="dr" id="draenei" />
-								    <label for="draenei">Draenei</label>
-
-								    <input type="checkbox" name="rall" value="wrg" id="worgen" />
-								    <label for="worgen">Worgen</label>
-
-							    </div>
-
-							    <div id="hord_multibox">
-
-								<h6>Horde :</h6>
-
-									<input type="checkbox" name="rhor" value="orc" id="orc" />
-									<label for="orc">Orc</label>
-
-									<input type="checkbox" name="rhor" value="tr" id="troll" />
-									<label for="troll">Troll</label>
-
-									<input type="checkbox" name="rhor" value="tau" id="tauren" />
-									<label for="tauren">Tauren</label>
-
-									<input type="checkbox" name="rhor" value="eds" id="blood_elf" />
-									<label for="blood_elf">Elfe de Sang</label>
-
-									<input type="checkbox" name="rhor" value="ud" id="undead" />
-									<label for="undead">Mort-Vivant</label>
-
-									<input type="checkbox" name="rhor" value="gob" id="goblin" />
-									<label for="goblin">Gobelin </label>
-
-								</div>
-
-								<div id="neutral_box">
-
-									<h6>Neutre :</h6>
-
-									<input type="checkbox" name="rneu" value="pdrn" id="pandaren" />
-									<label for="pandaren">Pandaren</label>
-
-								</div>
-
-							</p>
-
-						</div>
-
-						<div id="second_multibox">
-
-							<p>
-
-								<h5>Quelles classes avez-vous déjà joué? :</h5>
-
-								<div id="mise_en_forme">
-
-									<div id="left_column">
-
-										<input type="checkbox" name="clas" value="gue" id="warrior" />
-										<label for="warrior">Guerrier</label>
-
-										<input type="checkbox" name="clas" value="pal" id="paladin" />
-										<label for="paladin">Paladin</label>
-
-										<input type="checkbox" name="clas" value="mag" id="mage" />
-										<label for="mage">Mage</label>
-
-										<input type="checkbox" name="clas" value="pre" id="priest" />
-										<label for="priest">Prêtre</label>
-
-										<input type="checkbox" name="clas" value="cha" id="shaman" />
-										<label for="shaman">Chaman</label>
-
-										<input type="checkbox" name="clas" value="drde" id="drood" />
-										<label for="drood">Druide</label>
-
-									</div>
-
-									<div id="right_column">
-
-										<input type="checkbox" name="clas" value="hunt" id="hunter" />
-										<label for="hunter">Chasseur</label>
-
-										<input type="checkbox" name="clas" value="vol" id="thief" />
-										<label for="thief">Voleur</label>
-
-										<input type="checkbox" name="clas" value="demo" id="warlock" />
-										<label for="warlock">Démoniste</label>
-
-										<input type="checkbox" name="clas" value="knght" id="knight" />
-										<label for="knight">Chevalier de la Mort</label>
-
-										<input type="checkbox" name="clas" value="monk" id="monk" />
-										<label for="monk">Monial</label>
-
-										<input type="checkbox" name="clas" value="dmnhntr" id="demon_hunter" />
-										<label for="demon_hunter">Chasseur de Démon</label>
-
-									</div>
-
-								</div>
-
-							</p>
-
-						</div>
-
-						<div id="max_level">
-
-							<p>
-
-								<label for="best_player_level">Quel a été votre niveau maximum? :</label>
-								<input type="number" name="lvl" step="1" value="1" min="1" max="110" id="best_player_level" />
-
-							</p>
-
-						</div>
-
-					</div>
-
-					<div id="button_area">
-
-						<input type="submit" name="Envoyer" />
-						<input type="reset" name="Réinitialiser" />
 
 					</div>
 
 				</fieldset>
 
+					<fieldset>
+
+						<legend>Informations Complémentaires</legend>
+
+						<div id="player_form">
+
+							<header>
+
+								<h5>Si vous avez déjà joué, veuillez remplir les champs ci-dessous.</h5>
+								<h5>Sinon merci à vous, n'oubliez pas de valider le formulaire ;)!</h5>
+
+							</header>
+
+							<div id="first_multibox">
+
+								<p>
+
+									<h5>Quelles races avez-vous déjà joué? :</h5>
+
+									<div id="alli_multibox">
+
+										<h6>Alliance :</h6>
+
+										<input type="checkbox" name="rall" value="hu" id="human" />
+										<label for="human">Humain</label>
+
+									    <input type="checkbox" name="rall" value="na" id="dwarven" />
+									    <label for="dwarven">Nain</label>
+
+									    <input type="checkbox" name="rall" value="gn" id="gnomish" />
+									    <label for="gnomish">Gnome</label>
+
+									    <input type="checkbox" name="rall" value="elf" id="night_elf" />
+									    <label for="night_elf">Elfe de la Nuit</label>
+
+									    <input type="checkbox" name="rall" value="dr" id="draenei" />
+									    <label for="draenei">Draenei</label>
+
+									    <input type="checkbox" name="rall" value="wrg" id="worgen" />
+									    <label for="worgen">Worgen</label>
+
+								    </div>
+
+								    <div id="hord_multibox">
+
+									<h6>Horde :</h6>
+
+										<input type="checkbox" name="rhor" value="orc" id="orc" />
+										<label for="orc">Orc</label>
+
+										<input type="checkbox" name="rhor" value="tr" id="troll" />
+										<label for="troll">Troll</label>
+
+										<input type="checkbox" name="rhor" value="tau" id="tauren" />
+										<label for="tauren">Tauren</label>
+
+										<input type="checkbox" name="rhor" value="eds" id="blood_elf" />
+										<label for="blood_elf">Elfe de Sang</label>
+
+										<input type="checkbox" name="rhor" value="ud" id="undead" />
+										<label for="undead">Mort-Vivant</label>
+
+										<input type="checkbox" name="rhor" value="gob" id="goblin" />
+										<label for="goblin">Gobelin </label>
+
+									</div>
+
+									<div id="neutral_box">
+
+										<h6>Neutre :</h6>
+
+										<input type="checkbox" name="rneu" value="pdrn" id="pandaren" />
+										<label for="pandaren">Pandaren</label>
+
+									</div>
+
+								</p>
+
+							</div>
+
+							<div id="second_multibox">
+
+								<p>
+
+									<h5>Quelles classes avez-vous déjà joué? :</h5>
+
+									<div id="mise_en_forme">
+
+										<div id="left_column">
+
+											<input type="checkbox" name="clas" value="gue" id="warrior" />
+											<label for="warrior">Guerrier</label>
+
+											<input type="checkbox" name="clas" value="pal" id="paladin" />
+											<label for="paladin">Paladin</label>
+
+											<input type="checkbox" name="clas" value="mag" id="mage" />
+											<label for="mage">Mage</label>
+
+											<input type="checkbox" name="clas" value="pre" id="priest" />
+											<label for="priest">Prêtre</label>
+
+											<input type="checkbox" name="clas" value="cha" id="shaman" />
+											<label for="shaman">Chaman</label>
+
+											<input type="checkbox" name="clas" value="drde" id="drood" />
+											<label for="drood">Druide</label>
+
+										</div>
+
+										<div id="right_column">
+
+											<input type="checkbox" name="clas" value="hunt" id="hunter" />
+											<label for="hunter">Chasseur</label>
+
+											<input type="checkbox" name="clas" value="vol" id="thief" />
+											<label for="thief">Voleur</label>
+
+											<input type="checkbox" name="clas" value="demo" id="warlock" />
+											<label for="warlock">Démoniste</label>
+
+											<input type="checkbox" name="clas" value="knght" id="knight" />
+											<label for="knight">Chevalier de la Mort</label>
+
+											<input type="checkbox" name="clas" value="monk" id="monk" />
+											<label for="monk">Monial</label>
+
+											<input type="checkbox" name="clas" value="dmnhntr" id="demon_hunter" />
+											<label for="demon_hunter">Chasseur de Démon</label>
+
+										</div>
+
+									</div>
+
+								</p>
+
+							</div>
+
+							<div id="max_level">
+
+								<p>
+
+									<label for="best_player_level">Quel a été votre niveau maximum? :</label>
+									<input type="number" name="lvl" step="1" value="1" min="1" max="110" id="best_player_level" />
+
+								</p>
+
+							</div>
+
+						</div>
+
+					</fieldset>
+
 			</form>
+
+			<div id="button_area">
+
+				<input type="submit" name="Envoyer" />
+				<input type="reset" name="Réinitialiser" />
+
+			</div>
 
 		</div>
 
 	</body>
 
 </html>
-

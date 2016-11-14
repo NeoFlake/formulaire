@@ -18,12 +18,12 @@ h5, h6{
 }
 
 form{
+	display: flex;
 	margin: 1% 0 1% 1%;
 }
 
 fieldset{
-	margin: auto;
-	width: 50%;
+	flex: 1;
 	padding: 1%;
 }
 
@@ -32,9 +32,9 @@ legend{
 }
 
 #main_info{
-	width: 60%;
+	width: 70%;
 	margin-left: 1.9%;
-	
+
 }
 
 #main_info p{
@@ -52,7 +52,7 @@ legend{
 
 #main_info_gender{
 	display: inline-block;
-	width: 55%;
+	width: 70%;
 	float: right;
 }
 
@@ -61,7 +61,7 @@ legend{
 }
 
 #id_info{
-	width: 60%;
+	width: 70%;
 	margin-left: 1.9%;
 }
 
@@ -78,7 +78,7 @@ legend{
 }
 
 #player_info{
-	width: 60%;
+	width: 70%;
 	margin-left: 1.9%;
 }
 
@@ -95,18 +95,13 @@ legend{
 }
 
 #player_info h5{
-
 	float: left;
 }
 
 #player_info_played{
 	display: inline-block;
 	float: right;
-	width: 50%;
-}
-
-#player_info_played input[id="YES"]{
-	margin-left: 50%;
+	width: 35%;
 }
 
 #player_info_played label{
@@ -120,11 +115,11 @@ legend{
 
 textarea{
 	float: right;
-	margin: 2% 10% 2% 10%;
+	margin: 6% 10% 2% 10%;
 }
 
 header{
-	width: 60%;
+	width: 70%;
 	margin-left: 1.9%;
 }
 
@@ -135,13 +130,13 @@ header h5{
 
 #first_multibox, #second_multibox{
 	display: block;
-	width: 60%;
+	width: 90%;
 	margin: 1% 0 1% 1.9%;
 }
 
 #first_multibox h5, #second_multibox h5{
 	display: block;
-	width: 60%;
+	width: 70%;
 	margin-bottom: 1%;
 }
 
@@ -189,9 +184,10 @@ header h5{
 }
 
 #button_area{
-	margin: 2% 0 0 1.9%;
+	display: block;
+	margin: auto 40%;
 }
 
 input[name="Envoyer"]{
-	margin: 0 1.5%; 
+	margin: 4% 1% 0 32%;
 }
