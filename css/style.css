@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-size: 1em;
+	font-weight: 400;
+	overflow: hidden;
+}
+
+.container{
+	height: 100vh;
+	width: 100vw;
+}
+
+h5, h6{
+	display: inline;
+}
+
+form{
+	margin: 1% 0 1% 1%;
+}
+
+fieldset{
+	margin: auto;
+	width: 50%;
+	padding: 1%;
+}
+
+legend{
+	margin-left: 2%;
+}
+
+#main_info{
+	width: 60%;
+	margin-left: 1.9%;
+	
+}
+
+#main_info p{
+	margin: 1% 0;
+}
+
+#main_info label[for="first_name"], #main_info label[for="last_name"], #main_info label[for="age"], #main_info label[for="birthday"]{
+	float: left;
+}
+
+#main_info input[type=text], #main_info input[type=date], select{
+	float: right;
+	margin: 0 auto;
+}
+
+#main_info_gender{
+	display: inline-block;
+	width: 55%;
+	float: right;
+}
+
+#main_info_gender label{
+	margin: 0 3%;
+}
+
+#id_info{
+	width: 60%;
+	margin-left: 1.9%;
+}
+
+#id_info p{
+	margin-top: 1%;
+}
+
+#id_info label{
+	float: left;
+}
+
+#id_info input{
+	float: right;
+}
+
+#player_info{
+	width: 60%;
+	margin-left: 1.9%;
+}
+
+#player_info p{
+	margin: 1% 0;
+}
+
+#player_info label[for=nickname], #player_info label[for="user_message"]{
+	float: left;
+}
+
+#nickname{
+	float: right;
+}
+
+#player_info h5{
+
+	float: left;
+}
+
+#player_info_played{
+	display: inline-block;
+	float: right;
+	width: 50%;
+}
+
+#player_info_played input[id="YES"]{
+	margin-left: 50%;
+}
+
+#player_info_played label{
+	margin: 0 3%;
+}
+
+#user_message_area{
+	width: 100%;
+	padding: 1% 0;
+}
+
+textarea{
+	float: right;
+	margin: 2% 10% 2% 10%;
+}
+
+header{
+	width: 60%;
+	margin-left: 1.9%;
+}
+
+header h5{
+	display: block;
+	text-align: center;
+}
+
+#first_multibox, #second_multibox{
+	display: block;
+	width: 60%;
+	margin: 1% 0 1% 1.9%;
+}
+
+#first_multibox h5, #second_multibox h5{
+	display: block;
+	width: 60%;
+	margin-bottom: 1%;
+}
+
+#alli_multibox, #hord_multibox, #neutral_box{
+	margin: 2% 0;
+}
+
+#alli_multibox h6,#hord_multibox h6, #neutral_box h6{
+	display: inline-block;
+}
+
+#alli_multibox input{
+	margin-left: 1%;
+}
+
+#hord_multibox input[id="orc"]{
+	margin-left: 3.5%;
+}
+
+#hord_multibox input{
+	margin-left: 1%;
+}
+
+#neutral_box input{
+	margin-left: 2.8%;
+}
+
+#mise_en_forme{
+	width: 50%;
+	margin: 2% 0 0 2%;
+	display: flex;
+}
+
+#left_column, #right_column{
+	flex: 1;
+}
+
+#left_column label, #right_column label{
+	display:inline-block;
+	width: 80%;
+}
+
+#max_level{
+	margin-left: 1.9%;
+}
+
+#button_area{
+	margin: 2% 0 0 1.9%;
+}
+
+input[name="Envoyer"]{
+	margin: 0 1.5%; 
+}
